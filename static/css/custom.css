@@ -1,0 +1,429 @@
+/*navbar*/
+.nav-transparent {
+  background: none;
+
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: #FFFFFF !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  opacity: 0.8 !important;
+}
+
+.navemphasis {
+  color: #FFFFFF;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+  opacity: 0.9;
+}
+
+.dropdown {
+  color: #1F1F1F !important;
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dropdown-item:hover {
+  background-color: #265E33;
+  color: #FFFFFF;
+}
+
+.dropdown-item:active {
+  background-color: #265E33;
+}
+
+.nav-link:hover {
+  opacity: 0.75 !important;
+}
+
+/* make the navbar dropdown a color when expanding on mobile devices */
+@media(max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(31, 31, 31, 0.75);
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/**/
+/**/
+/* downarrow */
+.fa {
+  color: black;
+  opacity: 0.5;
+}
+
+.fa img {
+  width: 50%;
+}
+
+.arrow {
+  text-align: center;
+
+  padding-bottom: 20px;
+
+  position: fixed;
+  bottom: 0;
+  left: 95%;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/**/
+/**/
+/*backgrounds*/
+/*for home*/
+.first {
+  margin-top: -90px;
+  height: 110vh;
+  background-size:cover;
+  background-position: center;
+  background-image:url('../../static/img/bg/bg_home.png');
+  padding-top: 25vh;
+}
+
+/**/
+/**/
+/*backgrounds*/
+/*for other pages*/
+.firsts {
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+
+  height: 110vh;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#first-consultation {
+  background-image:url('../../static/img/bg/bg_consultation.png');
+}
+
+#first-immigration-links {
+  background-image:url('../../static/img/bg/bg_immigrationlinks.png');
+}
+
+#first-contact-us {
+  background-image:url('../../static/img/bg/bg_contact.png');
+}
+
+#first-ladan {
+  background-image:url('../../static/img/bg/bg_ladan.png');
+}
+
+#first-wallace {
+  background-image:url('../../static/img/bg/bg_wallace.png');
+}
+
+#first-paul {
+  background-image:url('../../static/img/bg/bg_paul.png');
+}
+
+#first-ali {
+  background-image:url('../../static/img/bg/bg_ali.png');
+}
+
+#first-aliscott {
+  background-image:url('../../static/img/bg/bg_aliscott.png');
+}
+
+#first-business {
+  background-image:url('../../static/img/bg/bg_business.png');
+}
+
+#first-asylum {
+  background-image:url('../../static/img/bg/bg_asylum.png');
+}
+
+#first-court {
+  background-image:url('../../static/img/bg/bg_court.png');
+}
+
+#first-family {
+  background-image:url('../../static/img/bg/bg_family.png');
+}
+
+#first-waivers {
+  background-image:url('../../static/img/bg/bg_waivers.png');
+}
+
+#first-naturalization {
+  background-image:url('../../static/img/bg/bg_naturalization.png');
+}
+
+/*all text*/
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 300;
+  color: #1F1F1F !important;
+  padding-top: 5rem;
+}
+
+#logo {
+  width: 85vw;
+}
+
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-lead {
+  padding-left: 30px !important;
+  padding-bottom: 5px;
+}
+
+i {
+  font-style: italic;
+}
+
+.emphasize {
+  font-weight: 700 !important;
+}
+
+.emphasize2 {
+  font-style: italic;
+}
+
+.emphasize3 {
+    font-weight: 700 !important;
+    color: #3F3645;
+}
+
+a {
+  color: #1F1F1F;
+  opacity: 0.9;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #265E33;
+  opacity: 1.0;
+}
+
+a img {
+  opacity: 0.85;
+}
+
+.lead a {
+  text-decoration: underline;
+  color: #265E33;
+  opacity: 1.0;
+}
+
+.lead a:hover {
+  opacity: 0.75;
+}
+
+.marketing {
+  padding-top: 30px;
+}
+
+.purple-box {
+  background-color: #3F3645;
+  height: 12vh;
+
+  margin-top: 15vh;
+  margin-bottom: 2vh;
+
+  margin-right: -25px;
+  margin-left: -25px;
+}
+
+.featurette-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700 !important;
+  font-size: 50px;
+  color: #3F3645;
+  margin-top: 0px !important;
+  opacity: 0.9;
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  padding: 20px;
+  margin: 10px;
+}
+
+.bg-white-row {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  padding: 20px;
+}
+
+.floating-team {
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.thumb {
+  width: 200px;
+  height: 200px;
+}
+
+.fadein {
+  opacity: 0.0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #3F3645;
+  padding-bottom: 15px;
+  opacity: 0.9;
+}
+
+h2 {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+h4 {
+  padding-top: 15px;
+}
+
+h5 {
+  font-style: italic;
+}
+
+h6 {
+  margin-top: 10px;
+}
+
+h6 a:hover {
+  color: #FFFFFF;
+  background-color: #265E33;
+
+  padding: 9px;
+  border-radius: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.pad-down {
+  padding-top: 50px;
+}
+
+.profile-image {
+  width: 300px;
+}
+
+.box-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image-link {
+  position: relative;
+  float: left;
+}
+
+.image-text {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+
+  color : #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2.3vw;
+  text-transform: uppercase;
+}
+
+@media(max-width: 767px) {
+  .image-text {
+    font-size: 8vw;
+  }
+}
+
+.alert {
+  background-color: rgba(122, 34, 32, 1.0);
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.alert-important {
+  padding-left: 10px;
+  font-weight: 700;
+}
+
+.bullet {
+  list-style-position: inside;
+  text-indent: -1.425em;
+
+  margin-left: 60px !important;
+}
+
+/*buttons*/
+.btn {
+  background-color: #3F3645;
+  border: 0px;
+
+  white-space: normal;
+}
+
+.btn:hover {
+  background-color: #265E33;
+}
+
+.btn:active {
+  background-color: #265E33 !important;
+}
+
+/* footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 30px;
+  width: 100%;
+}
