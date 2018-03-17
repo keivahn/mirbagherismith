@@ -378,6 +378,7 @@ h6 a:hover {
   text-transform: uppercase;
 }
 
+/* change the text within the boxes based on the window size */
 @media(max-width: 767px) {
   .image-text {
     font-size: 8vw;
