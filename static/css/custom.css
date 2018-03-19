@@ -300,8 +300,9 @@ a img {
   height: 200px;
 }
 
+/* disabled but if can be changed to 0 and then used in conjunction with function in scrolltransition.js */
 .fadein {
-  opacity: 0.0;
+  opacity: 1.0;
 }
 
 h1 {
